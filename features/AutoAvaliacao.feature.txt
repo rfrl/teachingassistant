@@ -1,4 +1,16 @@
 Os alunos devem realizar uma auto avaliação apos ver as notas dadas pelo professor
 Os alunos devem poder ver as notas dadas pelo professor a todo momento durante o processo de auto avaliação
 Para submeter a auto avaliação o aluno deve preencher o espaço de todas as competencias(um erro deve aparecer se algum espaço estiver vazio)
--rodrigo
+
+Cenario de sucesso:
+
+Given the teacher had already entered all the results
+When "Rodrigo" added "MPA" on all the grades
+Then "Rodrigo"'s grades are updated by the system
+
+Cenario de fracasso:
+
+Given The teacher had already entered all the results
+When "Rodrigo" added "MPA" on 2 of the grades
+And There are some missing grades
+Then The system will send an "error" message
