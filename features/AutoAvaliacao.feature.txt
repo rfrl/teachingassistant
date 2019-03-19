@@ -1,0 +1,3 @@
+Os alunos devem realizar uma auto avaliação apos ver as notas dadas pelo professor
+Os alunos devem poder ver as notas dadas pelo professor a todo momento durante o processo de auto avaliação
+Para submeter a auto avaliação o aluno deve preencher o espaço de todas as competencias(um erro deve aparecer se algum espaço estiver vazio)
