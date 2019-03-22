@@ -14,3 +14,9 @@ Given The teacher had already entered all the results
 When "Rodrigo" added "MPA" on 2 of the grades
 And There are some missing grades
 Then The system will send an "error" message
+
+Cenario não há discrepancia
+
+Given Im logged as a "teacher"
+And all students have entered their "self-evaluation grades"
+Then I can see "0" students have discrepant grades
