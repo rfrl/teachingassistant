@@ -15,3 +15,15 @@ When "Rodrigo" added "MPA" on 2 of the grades
 And There are some missing grades
 Then The system will send an "error" message
 Then "ADICIONADO DEPOIS DO BRANCH"
+
+Cenario não há discrepancia
+
+Given Im logged as a "teacher"
+And all students have entered their "self-evaluation grades"
+Then I can see "0" students have discrepant grades
+
+Cenario há discrepancia
+
+Given Im logged as a "teacher"
+And All the students in the class "A" already entered their "Self-evaluation grades"
+Then I can se "Robesvaldo" has discrepante grades
