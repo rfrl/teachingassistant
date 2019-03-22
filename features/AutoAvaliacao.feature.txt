@@ -14,3 +14,4 @@ Given The teacher had already entered all the results
 When "Rodrigo" added "MPA" on 2 of the grades
 And There are some missing grades
 Then The system will send an "error" message
+Then "ADICIONADO DEPOIS DO BRANCH"
