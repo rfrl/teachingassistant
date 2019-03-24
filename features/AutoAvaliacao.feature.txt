@@ -27,3 +27,5 @@ Cenario há discrepancia
 Given Im logged as a "teacher"
 And All the students in the class "A" already entered their "Self-evaluation grades"
 Then I can se 2 "students" has discrepante grades
+
+Novo cenário de visualização de percentual de discrepância.
